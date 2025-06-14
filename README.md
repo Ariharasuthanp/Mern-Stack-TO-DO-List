@@ -26,3 +26,29 @@ A simple and responsive To-Do List application built using the **MERN stack** �
 
 ## 📁 Folder Structure
 
+mern-todo-app/
+│
+├── client/ # React frontend
+│ ├── public/
+│ └── src/
+│ ├── components/
+│ ├── App.js
+│ └── index.js
+│
+├── server/ # Node/Express backend
+│ ├── models/
+│ ├── routes/
+│ └── server.js
+│
+├── package.json # Root config for concurrently
+└── README.md
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/mern-todo-app.git
+cd mern-todo-app
